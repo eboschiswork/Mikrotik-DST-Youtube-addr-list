@@ -88,9 +88,14 @@ add address=216.73.80.0/20 list=dst-alter-addres
 add address=googlevideo.com list=dst-alter-addres
 add address=whois.sc list=dst-alter-addres
 add address=whois.domaintools.com list=dst-alter-addres
+add address=backlot-api.prod.netflix.net list=dst-alter-addres
+add address=contenthub.netflixstudios.com list=dst-alter-addres
+add address=pegasusasperaprod.us-east-1.dynprod.netflix.net list=\
+    dst-alter-addres
 add address=54.204.25.0/28 list=dst-alter-addres
 add address=23.23.189.144/28 list=dst-alter-addres
 add address=34.195.253.0/25 list=dst-alter-addres
+add address=meechum.netflix.com list=dst-alter-addres
 add address=192.168.88.51 list=src-alter-addres
 add address=www.instagram.com list=dst-alter-addres
 add address=instagram.com list=dst-alter-addres
@@ -113,7 +118,7 @@ add address=66.249.80.0/20 list=dst-alter-addres
 add address=72.14.192.0/18 list=dst-alter-addres
 add address=108.156.0.0/15 list=dst-alter-addres
 add address=3.0.0.0/8 list=dst-alter-addres
-add address=52.0.0.0/8 list=dst-alter-addres
+add address=52.0.0.0/8 disabled=yes list=dst-alter-addres
 add address=44.0.0.0/8 list=dst-alter-addres
 add address=13.224.0.0/12 list=dst-alter-addres
 add address=18.66.0.0/16 list=dst-alter-addres
@@ -154,10 +159,26 @@ add address=104.16.0.0/12 list=dst-alter-addres
 add address=104.17.0.0/20 list=dst-alter-addres
 add address=172.64.0.0/13 list=dst-alter-addres
 add address=188.114.96.0/20 list=dst-alter-addres
+add address=80.67.32.0/19 comment=IVI disabled=yes list=dst-alter-addres
 add address=185.199.108.0/22 list=dst-alter-addres
 add address=224.0.0.0/4 list=dst-alter-addres
 add address=239.0.0.0/8 list=dst-alter-addres
 add address=51.89.0.0/16 list=dst-alter-addres
-add address=178.154.128.0/17 list=dst-alter-addres
+add address=178.154.128.0/17 comment=13_02 disabled=yes list=dst-alter-addres
+add address=213.180.192.0/18 comment=KINOPOISK disabled=yes list=\
+    dst-alter-addres
 add address=5.255.248.0/21 list=dst-alter-addres
+add address=87.250.224.0/19 comment="Kinopoisk DRM" disabled=yes list=\
+    dst-alter-addres
 add address=rutracker.org list=dst-alter-addres
+add address=87.245.216.0/24 list=dst-alter-addres
+add address=linkedin.com list=dst-alter-addres
+add address=108-174-3-1.fwd.linkedin.com list=dst-alter-addres
+add address=miele.de list=dst-alter-addres
+add address=miele.com list=dst-alter-addres
+add address=zendesk.com list=dst-alter-addres
+add address=74.125.250.244 list=dst-alter-addres
+add address=108.177.14.138 list=dst-alter-addres
+add address=www.notion.so list=dst-alter-addres
+add address=notion.so list=dst-alter-addres
+add address=notebooklm.google list=dst-alter-addres
